@@ -1,0 +1,31 @@
+.header {
+    background-color: wheat;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://resh.edu.ru/uploads/lesson_extract/3779/20190517130940/OEBPS/objects/c_ptls_11_6_1/fe3bbea7-7f44-4f55-804c-3036e4ee55cb.jpeg);
+    background-size: cover;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: auto auto auto;
+    border: 1px solid black;
+    padding: 10px;
+    align-self: center;
+    grid-gap: 10px;
+    background-color: blue;
+}
+
+.body div {
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+.body img {
+    width: 300px;
+    height: auto;
+}

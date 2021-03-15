@@ -1,0 +1,86 @@
+body {
+    background-image: url(https://img.olympicchannel.com/images/image/private/t_16-9_3200/v1536936974/primary/exvzqcvorticinejmmel);
+    background-size: cover;
+}
+
+h3 {
+    text-align: center;
+}
+
+.first {
+    height: 80px;
+    background-color: grey;
+}
+
+.userform {
+    margin-top: 5%;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+
+    background-color: white;
+}
+
+.class1 {
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+}
+
+.logodiv {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    font-size: 10px;
+    text-align: center;
+}
+
+.centralize {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: column;
+}
+
+.centralize p,
+a {
+    text-align: center;
+}
+
+.griduser {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#div1 {
+    display: flex;
+    flex-flow: row;
+    width: 800px;
+    background-color: white;
+}
+
+.div2 {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+#usinfo {
+    width: 100%;
+}
